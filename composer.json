@@ -1,0 +1,25 @@
+{
+    "name": "videos/videos",
+    "require": {
+        "php": ">=7.3"
+    },
+
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Rafael Costa",
+            "email": "rafaelcostasaboia@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Bootstrap\\": "Bootstrap/",
+            "App\\": "App/"
+        }
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    }
+}
